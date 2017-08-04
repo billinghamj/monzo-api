@@ -29,6 +29,14 @@
 	</tr>
 	<tr>
 		<td>GET</td>
+		<td>bacs-direct-debits/instructions</td>
+	</tr>
+	<tr>
+		<td>PUT</td>
+		<td>bacs-direct-debits/instructions/{direct_debit_id}/cancel</td>
+	</tr>
+	<tr>
+		<td>GET</td>
 		<td>balance</td>
 	</tr>
 	<tr>
@@ -152,6 +160,10 @@
 		<td>p2p/transfer</td>
 	</tr>
 	<tr>
+		<td>GET</td>
+		<td>payee/validate</td>
+	</tr>
+	<tr>
 		<td>POST</td>
 		<td>phone/check-code</td>
 	</tr>
@@ -172,8 +184,16 @@
 		<td>profile</td>
 	</tr>
 	<tr>
+		<td>GET</td>
+		<td>scheduled-payments/series</td>
+	</tr>
+	<tr>
 		<td>POST</td>
 		<td>scheduled-payments/series/fps</td>
+	</tr>
+	<tr>
+		<td>DELETE</td>
+		<td>scheduled-payments/series/{series_id}</td>
 	</tr>
 	<tr>
 		<td>POST</td>
@@ -206,6 +226,26 @@
 	<tr>
 		<td>POST</td>
 		<td>stripe/top_up</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>tax-residency/no-tin</td>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td>tax-residency/status</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>tax-residency/submit</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>tax-residency/update-self-certification</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>tax-residency/update-tin</td>
 	</tr>
 	<tr>
 		<td>GET</td>
