@@ -184,6 +184,10 @@
 		<td>profile</td>
 	</tr>
 	<tr>
+		<td>POST</td>
+		<td>profile/update_address</td>
+	</tr>
+	<tr>
 		<td>GET</td>
 		<td>scheduled-payments/series</td>
 	</tr>
@@ -210,6 +214,14 @@
 	<tr>
 		<td>POST</td>
 		<td>signup/create</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>signup/personal-account/start</td>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td>signup/personal-account/status</td>
 	</tr>
 	<tr>
 		<td>GET</td>
