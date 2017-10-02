@@ -144,6 +144,10 @@
 		<td>oauth2/authorize</td>
 	</tr>
 	<tr>
+		<td>GET</td>
+		<td>oauth2/clients/{client_id}</td>
+	</tr>
+	<tr>
 		<td>POST</td>
 		<td>oauth2/logout</td>
 	</tr>
