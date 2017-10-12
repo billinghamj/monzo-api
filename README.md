@@ -225,10 +225,6 @@
 	</tr>
 	<tr>
 		<td>POST</td>
-		<td>session</td>
-	</tr>
-	<tr>
-		<td>POST</td>
 		<td>signup</td>
 	</tr>
 	<tr>
