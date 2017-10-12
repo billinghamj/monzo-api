@@ -100,6 +100,10 @@
 		<td>golden-ticket/{id}</td>
 	</tr>
 	<tr>
+		<td>PUT</td>
+		<td>golden-ticket/{id}/claim</td>
+	</tr>
+	<tr>
 		<td>GET</td>
 		<td>help/content/categories/{id}</td>
 	</tr>
