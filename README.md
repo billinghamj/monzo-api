@@ -100,6 +100,18 @@
 		<td>golden-ticket/{id}</td>
 	</tr>
 	<tr>
+		<td>GET</td>
+		<td>help/content/categories/{id}</td>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td>help/content/search</td>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td>help/content/trending</td>
+	</tr>
+	<tr>
 		<td>POST</td>
 		<td>identity-verification/register-identity-document</td>
 	</tr>
@@ -221,11 +233,59 @@
 	</tr>
 	<tr>
 		<td>POST</td>
+		<td>signup/legal-documents/accept</td>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td>signup/legal-documents/documents</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>signup/marketing/subscribe</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>signup/personal-account/card-order/create</td>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td>signup/personal-account/card-order/options</td>
+	</tr>
+	<tr>
+		<td>POST</td>
 		<td>signup/personal-account/start</td>
 	</tr>
 	<tr>
 		<td>GET</td>
 		<td>signup/personal-account/status</td>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td>signup/profile</td>
+	</tr>
+	<tr>
+		<td>PUT</td>
+		<td>signup/profile</td>
+	</tr>
+	<tr>
+		<td>PUT</td>
+		<td>signup/profile/address</td>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td>signup/profile/address/search</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>signup/profile/commit</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>signup/profile/phone/send</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>signup/profile/phone/verify</td>
 	</tr>
 	<tr>
 		<td>GET</td>
