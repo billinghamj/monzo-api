@@ -137,7 +137,7 @@
 	</tr>
 	<tr>
 		<td>GET</td>
-		<td>inbound-p2p/username/:username</td>
+		<td>inbound-p2p/username/{username}</td>
 	</tr>
 	<tr>
 		<td>GET</td>
@@ -354,6 +354,10 @@
 	<tr>
 		<td>PATCH</td>
 		<td>transactions/{transaction_id}</td>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td>user-images/profile_picture/{user_id}</td>
 	</tr>
 	<tr>
 		<td>PUT</td>
