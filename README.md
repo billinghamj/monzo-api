@@ -133,6 +133,10 @@
 	</tr>
 	<tr>
 		<td>GET</td>
+		<td>inbound-p2p/username/:username</td>
+	</tr>
+	<tr>
+		<td>GET</td>
 		<td>intercom/tokens/{intercom_app_id}</td>
 	</tr>
 	<tr>
@@ -294,6 +298,14 @@
 	<tr>
 		<td>POST</td>
 		<td>stripe/cards</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>stripe/inbound_p2p/charge</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>stripe/inbound_p2p/create</td>
 	</tr>
 	<tr>
 		<td>POST</td>
