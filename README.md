@@ -205,6 +205,10 @@
 	</tr>
 	<tr>
 		<td>GET</td>
+		<td>prepaid-migration-whitelist</td>
+	</tr>
+	<tr>
+		<td>GET</td>
 		<td>profile</td>
 	</tr>
 	<tr>
@@ -257,6 +261,10 @@
 	</tr>
 	<tr>
 		<td>POST</td>
+		<td>signup/personal-account/card/activate</td>
+	</tr>
+	<tr>
+		<td>POST</td>
 		<td>signup/personal-account/start</td>
 	</tr>
 	<tr>
@@ -290,6 +298,10 @@
 	<tr>
 		<td>POST</td>
 		<td>signup/profile/phone/verify</td>
+	</tr>
+	<tr>
+		<td>POST</td>
+		<td>signup/secure-token/skip</td>
 	</tr>
 	<tr>
 		<td>GET</td>
