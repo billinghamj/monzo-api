@@ -9,6 +9,7 @@
 	<tr><td>GET</td><td>bacs-direct-debits/instructions</td></tr>
 	<tr><td>PUT</td><td>bacs-direct-debits/instructions/{direct_debit_id}/cancel</td></tr>
 	<tr><td>GET</td><td>balance</td></tr>
+	<tr><td>GET</td><td>balance/graph</td></tr>
 	<tr><td>GET</td><td>balance/limits</td></tr>
 	<tr><td>POST</td><td>card-activation/activate</td></tr>
 	<tr><td>GET</td><td>card-dispatch/status</td></tr>
@@ -21,6 +22,7 @@
 	<tr><td>POST</td><td>faster-payments/create</td></tr>
 	<tr><td>POST</td><td>fcm/register</td></tr>
 	<tr><td>GET</td><td>feed</td></tr>
+	<tr><td>POST</td><td>feed/mark-read</td></tr>
 	<tr><td>DELETE</td><td>feed/{id}</td></tr>
 	<tr><td>GET</td><td>geocode/postal-code-lookup</td></tr>
 	<tr><td>GET</td><td>golden-ticket/{id}</td></tr>
@@ -51,6 +53,7 @@
 	<tr><td>GET</td><td>payment-limit/limits</td></tr>
 	<tr><td>POST</td><td>phone/check-code</td></tr>
 	<tr><td>POST</td><td>phone/send-code</td></tr>
+	<tr><td>POST</td><td>pin/read</td></tr>
 	<tr><td>POST</td><td>pin/sms</td></tr>
 	<tr><td>GET</td><td>pin/sms_blocked</td></tr>
 	<tr><td>GET</td><td>prepaid-migration-whitelist</td></tr>
@@ -59,6 +62,7 @@
 	<tr><td>GET</td><td>scheduled-payments/series</td></tr>
 	<tr><td>POST</td><td>scheduled-payments/series/fps</td></tr>
 	<tr><td>DELETE</td><td>scheduled-payments/series/{series_id}</td></tr>
+	<tr><td>POST</td><td>secure-token/enrol/pin</td></tr>
 	<tr><td>POST</td><td>signup</td></tr>
 	<tr><td>POST</td><td>signup/apply</td></tr>
 	<tr><td>POST</td><td>signup/create</td></tr>
@@ -84,6 +88,7 @@
 	<tr><td>POST</td><td>stripe/inbound_p2p/create</td></tr>
 	<tr><td>POST</td><td>stripe/three_d_secure</td></tr>
 	<tr><td>POST</td><td>stripe/top_up</td></tr>
+	<tr><td>GET</td><td>targets</td></tr>
 	<tr><td>POST</td><td>tax-residency/no-tin</td></tr>
 	<tr><td>GET</td><td>tax-residency/status</td></tr>
 	<tr><td>POST</td><td>tax-residency/submit</td></tr>
