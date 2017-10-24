@@ -176,6 +176,14 @@
 		<td>oauth2/token</td>
 	</tr>
 	<tr>
+		<td>PUT</td>
+		<td>overdraft/limit</td>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td>overdraft/status</td>
+	</tr>
+	<tr>
 		<td>POST</td>
 		<td>p2p/recipients</td>
 	</tr>
@@ -186,6 +194,10 @@
 	<tr>
 		<td>GET</td>
 		<td>payee/validate</td>
+	</tr>
+	<tr>
+		<td>GET</td>
+		<td>payment-limit/limits</td>
 	</tr>
 	<tr>
 		<td>POST</td>
