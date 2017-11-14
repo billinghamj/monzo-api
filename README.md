@@ -56,6 +56,13 @@
 	<tr><td>POST</td><td>pin/read</td></tr>
 	<tr><td>POST</td><td>pin/sms</td></tr>
 	<tr><td>GET</td><td>pin/sms_blocked</td></tr>
+	<tr><td>GET</td><td>pots</td></tr>
+	<tr><td>PUT</td><td>pots</td></tr>
+	<tr><td>DELETE</td><td>pots/{id}</td></tr>
+	<tr><td>GET</td><td>pots/{id}</td></tr>
+	<tr><td>PATCH</td><td>pots/{id}</td></tr>
+	<tr><td>PUT</td><td>pots/{id}/deposit</td></tr>
+	<tr><td>PUT</td><td>pots/{id}/withdraw</td></tr>
 	<tr><td>GET</td><td>prepaid-migration-whitelist</td></tr>
 	<tr><td>GET</td><td>profile</td></tr>
 	<tr><td>POST</td><td>profile/update_address</td></tr>
