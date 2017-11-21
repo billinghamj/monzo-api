@@ -65,6 +65,8 @@
 	<tr><td>PUT</td><td>pots/{id}/withdraw</td></tr>
 	<tr><td>GET</td><td>prepaid-migration-whitelist</td></tr>
 	<tr><td>GET</td><td>profile</td></tr>
+	<tr><td>PUT</td><td>profile/address</td></tr>
+	<tr><td>GET</td><td>profile/address/search</td></tr>
 	<tr><td>POST</td><td>profile/update_address</td></tr>
 	<tr><td>GET</td><td>scheduled-payments/series</td></tr>
 	<tr><td>POST</td><td>scheduled-payments/series/fps</td></tr>
