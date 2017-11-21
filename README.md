@@ -12,7 +12,6 @@
 	<tr><td>GET</td><td>balance/graph</td></tr>
 	<tr><td>GET</td><td>balance/limits</td></tr>
 	<tr><td>POST</td><td>card-activation/activate</td></tr>
-	<tr><td>GET</td><td>card-dispatch/status</td></tr>
 	<tr><td>POST</td><td>card-replacement/activate</td></tr>
 	<tr><td>POST</td><td>card-replacement/order</td></tr>
 	<tr><td>GET</td><td>card/list</td></tr>
@@ -51,8 +50,6 @@
 	<tr><td>POST</td><td>p2p/transfer</td></tr>
 	<tr><td>GET</td><td>payee/validate</td></tr>
 	<tr><td>GET</td><td>payment-limit/limits</td></tr>
-	<tr><td>POST</td><td>phone/check-code</td></tr>
-	<tr><td>POST</td><td>phone/send-code</td></tr>
 	<tr><td>POST</td><td>pin/read</td></tr>
 	<tr><td>POST</td><td>pin/sms</td></tr>
 	<tr><td>GET</td><td>pin/sms_blocked</td></tr>
@@ -73,8 +70,6 @@
 	<tr><td>DELETE</td><td>scheduled-payments/series/{series_id}</td></tr>
 	<tr><td>POST</td><td>secure-token/enrol/pin</td></tr>
 	<tr><td>POST</td><td>signup</td></tr>
-	<tr><td>POST</td><td>signup/apply</td></tr>
-	<tr><td>POST</td><td>signup/create</td></tr>
 	<tr><td>POST</td><td>signup/legal-documents/accept</td></tr>
 	<tr><td>GET</td><td>signup/legal-documents/documents</td></tr>
 	<tr><td>POST</td><td>signup/marketing/subscribe</td></tr>
