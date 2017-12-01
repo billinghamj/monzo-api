@@ -11,6 +11,7 @@
 	<tr><td>GET</td><td>balance</td></tr>
 	<tr><td>GET</td><td>balance/graph</td></tr>
 	<tr><td>GET</td><td>balance/limits</td></tr>
+	<tr><td>GET</td><td>branches</td></tr>
 	<tr><td>POST</td><td>card-activation/activate</td></tr>
 	<tr><td>POST</td><td>card-replacement/activate</td></tr>
 	<tr><td>POST</td><td>card-replacement/order</td></tr>
