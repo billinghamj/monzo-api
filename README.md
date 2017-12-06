@@ -15,6 +15,9 @@
 	<tr><td>POST</td><td>card-activation/activate</td></tr>
 	<tr><td>POST</td><td>card-replacement/activate</td></tr>
 	<tr><td>POST</td><td>card-replacement/order</td></tr>
+	<tr><td>GET</td><td>card-security-code-challenge/details</td></tr>
+	<tr><td>POST</td><td>card-security-code-challenge/skip</td></tr>
+	<tr><td>POST</td><td>card-security-code-challenge/submit</td></tr>
 	<tr><td>GET</td><td>card/list</td></tr>
 	<tr><td>PUT</td><td>card/toggle</td></tr>
 	<tr><td>GET</td><td>config</td></tr>
@@ -45,12 +48,16 @@
 	<tr><td>GET</td><td>oauth2/clients/{client_id}</td></tr>
 	<tr><td>POST</td><td>oauth2/logout</td></tr>
 	<tr><td>POST</td><td>oauth2/token</td></tr>
+	<tr><td>GET</td><td>overdraft/credit-agreements</td></tr>
+	<tr><td>POST</td><td>overdraft/credit-agreements</td></tr>
 	<tr><td>PUT</td><td>overdraft/limit</td></tr>
 	<tr><td>GET</td><td>overdraft/status</td></tr>
 	<tr><td>POST</td><td>p2p/recipients</td></tr>
 	<tr><td>POST</td><td>p2p/transfer</td></tr>
 	<tr><td>GET</td><td>payee/validate</td></tr>
 	<tr><td>GET</td><td>payment-limit/limits</td></tr>
+	<tr><td>POST</td><td>pin-recovery/start</td></tr>
+	<tr><td>GET</td><td>pin-recovery/status</td></tr>
 	<tr><td>POST</td><td>pin/read</td></tr>
 	<tr><td>POST</td><td>pin/sms</td></tr>
 	<tr><td>GET</td><td>pin/sms_blocked</td></tr>
