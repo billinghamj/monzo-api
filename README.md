@@ -48,6 +48,7 @@
 		<tr><td>POST</td><td>fcm/register</td></tr>
 		<tr><th colspan="2">service.api.feed</th></tr>
 		<tr><td>GET</td><td>feed</td></tr>
+		<tr><td>POST</td><td>feed</td></tr>
 		<tr><td>POST</td><td>feed/mark-read</td></tr>
 		<tr><td>DELETE</td><td>feed/{id}</td></tr>
 		<tr><th colspan="2">service.api.geocode</th></tr>
@@ -99,9 +100,12 @@
 		<tr><td>POST</td><td>pin/read</td></tr>
 		<tr><td>POST</td><td>pin/sms</td></tr>
 		<tr><td>GET</td><td>pin/sms_blocked</td></tr>
+		<tr><th colspan="2">service.api.ping</th></tr>
+		<tr><td>GET</td><td>ping/whoami</td></tr>
 		<tr><th colspan="2">service.api.pots</th></tr>
 		<tr><td>GET</td><td>pots</td></tr>
 		<tr><td>PUT</td><td>pots</td></tr>
+		<tr><td>GET</td><td>pots/listV1</td></tr>
 		<tr><td>DELETE</td><td>pots/{id}</td></tr>
 		<tr><td>GET</td><td>pots/{id}</td></tr>
 		<tr><td>PATCH</td><td>pots/{id}</td></tr>
@@ -157,6 +161,7 @@
 		<tr><td>GET</td><td>topup/limits</td></tr>
 		<tr><td>GET</td><td>topup/status</td></tr>
 		<tr><th colspan="2">service.api.transactions</th></tr>
+		<tr><td>GET</td><td>transactions</td></tr>
 		<tr><td>POST</td><td>transactions/update-metadata</td></tr>
 		<tr><td>PATCH</td><td>transactions/{transaction_id}</td></tr>
 		<tr><th colspan="2">service.api.user-images</th></tr>
@@ -166,5 +171,9 @@
 		<tr><th colspan="2">service.api.waitlist</th></tr>
 		<tr><td>GET</td><td>waitlist</td></tr>
 		<tr><td>POST</td><td>waitlist/signup</td></tr>
+		<tr><th colspan="2">service.api.webhooks</th></tr>
+		<tr><td>GET</td><td>webhooks</td></tr>
+		<tr><td>POST</td><td>webhooks</td></tr>
+		<tr><td>DELETE</td><td>webhooks/{webhook_id}</td></tr>
 	</tbody>
 </table>
