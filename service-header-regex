@@ -1,0 +1,7 @@
+Find:
+
+^(\t<tr><td>[A-Z]{3,9}</td><td>([^/<]+)(?:/[^<]+)?</td></tr>\n)((?:\t<tr><td>[A-Z]{3,9}</td><td>(?:\2)(?:/[^<]+)?</td></tr>\n)*)
+
+Replace with:
+
+\t<tr><th colspan="2">service.api.$2</th></tr>\n$1$3
