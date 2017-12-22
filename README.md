@@ -38,6 +38,8 @@
 		<tr><th colspan="2">service.api.card</th></tr>
 		<tr><td>GET</td><td>card/list</td></tr>
 		<tr><td>PUT</td><td>card/toggle</td></tr>
+		<tr><th colspan="2">service.api.chat-user-selection</th></tr>
+		<tr><td>GET</td><td>chat-user-selection/query-urgency</td></tr>
 		<tr><th colspan="2">service.api.config</th></tr>
 		<tr><td>GET</td><td>config</td></tr>
 		<tr><th colspan="2">service.api.contact-discovery</th></tr>
@@ -60,6 +62,12 @@
 		<tr><td>GET</td><td>help/content/categories/{id}</td></tr>
 		<tr><td>GET</td><td>help/content/search</td></tr>
 		<tr><td>GET</td><td>help/content/trending</td></tr>
+		<tr><th colspan="2">service.api.identity-challenge</th></tr>
+		<tr><td>POST</td><td>identity-challenge/register-identity-document</td></tr>
+		<tr><td>POST</td><td>identity-challenge/register-selfie-video</td></tr>
+		<tr><td>POST</td><td>identity-challenge/request-file-upload</td></tr>
+		<tr><td>GET</td><td>identity-challenge/status</td></tr>
+		<tr><td>POST</td><td>identity-challenge/submit</td></tr>
 		<tr><th colspan="2">service.api.identity-verification</th></tr>
 		<tr><td>POST</td><td>identity-verification/register-identity-document</td></tr>
 		<tr><td>POST</td><td>identity-verification/register-selfie-video</td></tr>
@@ -94,6 +102,8 @@
 		<tr><th colspan="2">service.api.payment-limit</th></tr>
 		<tr><td>GET</td><td>payment-limit/limits</td></tr>
 		<tr><th colspan="2">service.api.pin-recovery</th></tr>
+		<tr><td>PUT</td><td>pin-recovery/cancel</td></tr>
+		<tr><td>POST</td><td>pin-recovery/retrieve</td></tr>
 		<tr><td>POST</td><td>pin-recovery/start</td></tr>
 		<tr><td>GET</td><td>pin-recovery/status</td></tr>
 		<tr><th colspan="2">service.api.pin</th></tr>
@@ -126,12 +136,14 @@
 		<tr><td>POST</td><td>secure-token/enrol/pin</td></tr>
 		<tr><th colspan="2">service.api.signup</th></tr>
 		<tr><td>POST</td><td>signup</td></tr>
+		<tr><td>POST</td><td>signup/initial-topup/skip</td></tr>
 		<tr><td>POST</td><td>signup/legal-documents/accept</td></tr>
 		<tr><td>GET</td><td>signup/legal-documents/documents</td></tr>
 		<tr><td>POST</td><td>signup/marketing/subscribe</td></tr>
 		<tr><td>POST</td><td>signup/personal-account/card-order/create</td></tr>
 		<tr><td>GET</td><td>signup/personal-account/card-order/options</td></tr>
 		<tr><td>POST</td><td>signup/personal-account/card/activate</td></tr>
+		<tr><td>POST</td><td>signup/personal-account/skip-stage</td></tr>
 		<tr><td>POST</td><td>signup/personal-account/start</td></tr>
 		<tr><td>GET</td><td>signup/personal-account/status</td></tr>
 		<tr><td>GET</td><td>signup/profile</td></tr>
