@@ -62,6 +62,7 @@
 		<tr><td>GET</td><td>help/content/categories/{id}</td></tr>
 		<tr><td>GET</td><td>help/content/search</td></tr>
 		<tr><td>GET</td><td>help/content/trending</td></tr>
+		<tr><td>GET</td><td>help/transactions/{transactionId}</td></tr>
 		<tr><th colspan="2">service.api.identity-challenge</th></tr>
 		<tr><td>POST</td><td>identity-challenge/register-identity-document</td></tr>
 		<tr><td>POST</td><td>identity-challenge/register-selfie-video</td></tr>
@@ -78,10 +79,6 @@
 		<tr><td>GET</td><td>inbound-p2p/username/{username}</td></tr>
 		<tr><th colspan="2">service.api.intercom</th></tr>
 		<tr><td>GET</td><td>intercom/tokens/{intercom_app_id}</td></tr>
-		<tr><th colspan="2">service.api.kyc</th></tr>
-		<tr><td>POST</td><td>kyc/register</td></tr>
-		<tr><td>GET</td><td>kyc/status</td></tr>
-		<tr><td>POST</td><td>kyc/upload</td></tr>
 		<tr><th colspan="2">service.api.news</th></tr>
 		<tr><td>GET</td><td>news</td></tr>
 		<tr><th colspan="2">service.api.oauth2</th></tr>
@@ -135,7 +132,6 @@
 		<tr><th colspan="2">service.api.secure-token</th></tr>
 		<tr><td>POST</td><td>secure-token/enrol/pin</td></tr>
 		<tr><th colspan="2">service.api.signup</th></tr>
-		<tr><td>POST</td><td>signup</td></tr>
 		<tr><td>POST</td><td>signup/initial-topup/skip</td></tr>
 		<tr><td>POST</td><td>signup/legal-documents/accept</td></tr>
 		<tr><td>GET</td><td>signup/legal-documents/documents</td></tr>
