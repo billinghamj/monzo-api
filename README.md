@@ -150,6 +150,8 @@
 		<tr><td>POST</td><td>signup/profile/phone/send</td></tr>
 		<tr><td>POST</td><td>signup/profile/phone/verify</td></tr>
 		<tr><td>POST</td><td>signup/secure-token/skip</td></tr>
+		<tr><th colspan="2">service.api.statement</th></tr>
+		<tr><td>GET</td><td>statement/{account_id}</td></tr>
 		<tr><th colspan="2">service.api.stripe</th></tr>
 		<tr><td>GET</td><td>stripe/cards</td></tr>
 		<tr><td>POST</td><td>stripe/cards</td></tr>
