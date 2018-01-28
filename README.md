@@ -38,6 +38,9 @@
 		<tr><th colspan="2">service.api.card</th></tr>
 		<tr><td>GET</td><td>card/list</td></tr>
 		<tr><td>PUT</td><td>card/toggle</td></tr>
+		<tr><th colspan="2">service.api.cass</th></tr>
+		<tr><td>GET</td><td>cass/suggest_dates</td></tr>
+		<tr><td>GET</td><td>cass/validate_account</td></tr>
 		<tr><th colspan="2">service.api.chat-user-selection</th></tr>
 		<tr><td>GET</td><td>chat-user-selection/query-urgency</td></tr>
 		<tr><th colspan="2">service.api.config</th></tr>
