@@ -39,7 +39,13 @@
 		<tr><td>GET</td><td>card/list</td></tr>
 		<tr><td>PUT</td><td>card/toggle</td></tr>
 		<tr><th colspan="2">service.api.cass</th></tr>
+		<tr><td>GET</td><td>cass/documents/account-closure-instruction</td></tr>
+		<tr><td>GET</td><td>cass/documents/current-account-switch-agreement</td></tr>
 		<tr><td>GET</td><td>cass/suggest_dates</td></tr>
+		<tr><td>POST</td><td>cass/switches/create</td></tr>
+		<tr><td>GET</td><td>cass/switches/status</td></tr>
+		<tr><td>POST</td><td>cass/switches/{switch_id}/complete</td></tr>
+		<tr><td>GET</td><td>cass/switches/{switch_id}/payments</td></tr>
 		<tr><td>GET</td><td>cass/validate_account</td></tr>
 		<tr><th colspan="2">service.api.chat-user-selection</th></tr>
 		<tr><td>GET</td><td>chat-user-selection/query-urgency</td></tr>
@@ -56,12 +62,15 @@
 		<tr><td>POST</td><td>feed</td></tr>
 		<tr><td>POST</td><td>feed/mark-read</td></tr>
 		<tr><td>DELETE</td><td>feed/{id}</td></tr>
+		<tr><th colspan="2">service.api.feedback</th></tr>
+		<tr><td>POST</td><td>feedback/create</td></tr>
 		<tr><th colspan="2">service.api.geocode</th></tr>
 		<tr><td>GET</td><td>geocode/postal-code-lookup</td></tr>
 		<tr><th colspan="2">service.api.golden-ticket</th></tr>
 		<tr><td>GET</td><td>golden-ticket/{id}</td></tr>
 		<tr><td>PUT</td><td>golden-ticket/{id}/claim</td></tr>
 		<tr><th colspan="2">service.api.help</th></tr>
+		<tr><td>GET</td><td>help/content/categories</td></tr>
 		<tr><td>GET</td><td>help/content/categories/{id}</td></tr>
 		<tr><td>GET</td><td>help/content/search</td></tr>
 		<tr><td>GET</td><td>help/content/trending</td></tr>
@@ -82,6 +91,9 @@
 		<tr><td>GET</td><td>inbound-p2p/username/{username}</td></tr>
 		<tr><th colspan="2">service.api.intercom</th></tr>
 		<tr><td>GET</td><td>intercom/tokens/{intercom_app_id}</td></tr>
+		<tr><th colspan="2">service.api.merchant</th></tr>
+		<tr><td>GET</td><td>merchant/search?user_location=0</td></tr>
+		<tr><td>POST</td><td>merchant/{merchant_id}/propose-edit</td></tr>
 		<tr><th colspan="2">service.api.news</th></tr>
 		<tr><td>GET</td><td>news</td></tr>
 		<tr><th colspan="2">service.api.oauth2</th></tr>
@@ -141,6 +153,8 @@
 		<tr><td>POST</td><td>signup/marketing/subscribe</td></tr>
 		<tr><td>POST</td><td>signup/personal-account/card-order/create</td></tr>
 		<tr><td>GET</td><td>signup/personal-account/card-order/options</td></tr>
+		<tr><td>POST</td><td>signup/personal-account/card-order/reorder</td></tr>
+		<tr><td>GET</td><td>signup/personal-account/card-order/status</td></tr>
 		<tr><td>POST</td><td>signup/personal-account/card/activate</td></tr>
 		<tr><td>POST</td><td>signup/personal-account/skip-stage</td></tr>
 		<tr><td>POST</td><td>signup/personal-account/start</td></tr>
@@ -153,6 +167,10 @@
 		<tr><td>POST</td><td>signup/profile/phone/send</td></tr>
 		<tr><td>POST</td><td>signup/profile/phone/verify</td></tr>
 		<tr><td>POST</td><td>signup/secure-token/skip</td></tr>
+		<tr><th colspan="2">service.api.spending-breakdown</th></tr>
+		<tr><td>GET</td><td>spending-breakdown/periods</td></tr>
+		<tr><td>GET</td><td>spending-breakdown/periods/{period_id}</td></tr>
+		<tr><td>GET</td><td>spending-breakdown/periods/{period_id}/transactions</td></tr>
 		<tr><th colspan="2">service.api.statement</th></tr>
 		<tr><td>GET</td><td>statement/{id}</td></tr>
 		<tr><th colspan="2">service.api.stripe</th></tr>
@@ -184,6 +202,8 @@
 		<tr><th colspan="2">service.api.waitlist</th></tr>
 		<tr><td>GET</td><td>waitlist</td></tr>
 		<tr><td>POST</td><td>waitlist/signup</td></tr>
+		<tr><th colspan="2">service.api.web-auth</th></tr>
+		<tr><td>POST</td><td>web-auth/authorize</td></tr>
 		<tr><th colspan="2">service.api.webhooks</th></tr>
 		<tr><td>GET</td><td>webhooks</td></tr>
 		<tr><td>POST</td><td>webhooks</td></tr>
