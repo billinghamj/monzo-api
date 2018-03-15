@@ -53,6 +53,7 @@
 		<tr><td>GET</td><td>config</td></tr>
 		<tr><th colspan="2">service.api.contact-discovery</th></tr>
 		<tr><td>GET</td><td>contact-discovery/query</td></tr>
+		<tr><td>GET</td><td>contact-discovery/users</td></tr>
 		<tr><th colspan="2">service.api.faster-payments</th></tr>
 		<tr><td>POST</td><td>faster-payments/create</td></tr>
 		<tr><th colspan="2">service.api.fcm</th></tr>
@@ -135,6 +136,8 @@
 		<tr><td>PUT</td><td>pots/{id}/withdraw</td></tr>
 		<tr><th colspan="2">service.api.prepaid-migration-whitelist</th></tr>
 		<tr><td>GET</td><td>prepaid-migration-whitelist</td></tr>
+		<tr><th colspan="2">service.api.prepaid-refund</th></tr>
+		<tr><td>GET</td><td>prepaid-refund/form</td></tr>
 		<tr><th colspan="2">service.api.profile</th></tr>
 		<tr><td>GET</td><td>profile</td></tr>
 		<tr><td>PUT</td><td>profile/address</td></tr>
@@ -172,6 +175,7 @@
 		<tr><td>GET</td><td>spending-breakdown/periods/{period_id}</td></tr>
 		<tr><td>GET</td><td>spending-breakdown/periods/{period_id}/transactions</td></tr>
 		<tr><th colspan="2">service.api.statement</th></tr>
+		<tr><td>GET</td><td>statement/options/{id}</td></tr>
 		<tr><td>GET</td><td>statement/{id}</td></tr>
 		<tr><th colspan="2">service.api.stripe</th></tr>
 		<tr><td>GET</td><td>stripe/cards</td></tr>
@@ -196,7 +200,10 @@
 		<tr><td>POST</td><td>transactions/update-metadata</td></tr>
 		<tr><td>PATCH</td><td>transactions/{transaction_id}</td></tr>
 		<tr><th colspan="2">service.api.user-images</th></tr>
+		<tr><td>DELETE</td><td>user-images/image</td></tr>
 		<tr><td>GET</td><td>user-images/profile_picture/{user_id}</td></tr>
+		<tr><td>PUT</td><td>user-images/register</td></tr>
+		<tr><td>POST</td><td>user-images/upload</td></tr>
 		<tr><th colspan="2">service.api.user-settings</th></tr>
 		<tr><td>PUT</td><td>user-settings</td></tr>
 		<tr><th colspan="2">service.api.waitlist</th></tr>
