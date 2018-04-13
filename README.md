@@ -105,7 +105,14 @@
 		<tr><td>GET</td><td>news</td></tr>
 		<tr><th colspan="2">service.api.oauth2</th></tr>
 		<tr><td>POST</td><td>oauth2/authorize</td></tr>
+		<tr><td>GET</td><td>oauth2/clients</td></tr>
+		<tr><td>POST</td><td>oauth2/clients</td></tr>
+		<tr><td>DELETE</td><td>oauth2/clients/{client_id}</td></tr>
 		<tr><td>GET</td><td>oauth2/clients/{client_id}</td></tr>
+		<tr><td>PATCH</td><td>oauth2/clients/{client_id}</td></tr>
+		<tr><td>GET</td><td>oauth2/clients/{client_id}/collaborators</td></tr>
+		<tr><td>PATCH</td><td>oauth2/clients/{client_id}/collaborators</td></tr>
+		<tr><td>POST</td><td>oauth2/clients/{client_id}/submit</td></tr>
 		<tr><td>POST</td><td>oauth2/logout</td></tr>
 		<tr><td>POST</td><td>oauth2/token</td></tr>
 		<tr><th colspan="2">service.api.overdraft</th></tr>
