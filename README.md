@@ -99,7 +99,7 @@
 		<tr><td>PUT</td><td>labs/enable</td></tr>
 		<tr><td>GET</td><td>labs/features</td></tr>
 		<tr><th colspan="2">service.api.merchant</th></tr>
-		<tr><td>GET</td><td>merchant/search?user_location=0</td></tr>
+		<tr><td>GET</td><td>merchant/search</td></tr>
 		<tr><td>POST</td><td>merchant/{merchant_id}/propose-edit</td></tr>
 		<tr><th colspan="2">service.api.news</th></tr>
 		<tr><td>GET</td><td>news</td></tr>
@@ -145,7 +145,6 @@
 		<tr><th colspan="2">service.api.pots</th></tr>
 		<tr><td>GET</td><td>pots</td></tr>
 		<tr><td>PUT</td><td>pots</td></tr>
-		<tr><td>GET</td><td>pots/listV1</td></tr>
 		<tr><td>DELETE</td><td>pots/{id}</td></tr>
 		<tr><td>GET</td><td>pots/{id}</td></tr>
 		<tr><td>PATCH</td><td>pots/{id}</td></tr>
