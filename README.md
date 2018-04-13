@@ -90,8 +90,14 @@
 		<tr><td>POST</td><td>identity-verification/submit</td></tr>
 		<tr><th colspan="2">service.api.inbound-p2p</th></tr>
 		<tr><td>GET</td><td>inbound-p2p/username/{username}</td></tr>
+		<tr><th colspan="2">service.api.income-declaration</th></tr>
+		<tr><td>PUT</td><td>income-declaration</td></tr>
 		<tr><th colspan="2">service.api.intercom</th></tr>
 		<tr><td>GET</td><td>intercom/tokens/{intercom_app_id}</td></tr>
+		<tr><th colspan="2">service.api.labs</th></tr>
+		<tr><td>PUT</td><td>labs/disable</td></tr>
+		<tr><td>PUT</td><td>labs/enable</td></tr>
+		<tr><td>GET</td><td>labs/features</td></tr>
 		<tr><th colspan="2">service.api.merchant</th></tr>
 		<tr><td>GET</td><td>merchant/search?user_location=0</td></tr>
 		<tr><td>POST</td><td>merchant/{merchant_id}/propose-edit</td></tr>
@@ -105,15 +111,19 @@
 		<tr><th colspan="2">service.api.overdraft</th></tr>
 		<tr><td>GET</td><td>overdraft/credit-agreements</td></tr>
 		<tr><td>POST</td><td>overdraft/credit-agreements</td></tr>
+		<tr><td>GET</td><td>overdraft/eligibility</td></tr>
 		<tr><td>PUT</td><td>overdraft/limit</td></tr>
 		<tr><td>GET</td><td>overdraft/status</td></tr>
 		<tr><th colspan="2">service.api.p2p</th></tr>
+		<tr><td>POST</td><td>p2p/react</td></tr>
 		<tr><td>POST</td><td>p2p/recipients</td></tr>
 		<tr><td>POST</td><td>p2p/transfer</td></tr>
 		<tr><th colspan="2">service.api.payee</th></tr>
 		<tr><td>GET</td><td>payee/validate</td></tr>
 		<tr><th colspan="2">service.api.payment-limit</th></tr>
 		<tr><td>GET</td><td>payment-limit/limits</td></tr>
+		<tr><th colspan="2">service.api.payments</th></tr>
+		<tr><td>PUT</td><td>payments/update</td></tr>
 		<tr><th colspan="2">service.api.pin-recovery</th></tr>
 		<tr><td>PUT</td><td>pin-recovery/cancel</td></tr>
 		<tr><td>POST</td><td>pin-recovery/retrieve</td></tr>
@@ -138,6 +148,9 @@
 		<tr><td>GET</td><td>prepaid-migration-whitelist</td></tr>
 		<tr><th colspan="2">service.api.prepaid-refund</th></tr>
 		<tr><td>GET</td><td>prepaid-refund/form</td></tr>
+		<tr><th colspan="2">service.api.previous-addresses</th></tr>
+		<tr><td>GET</td><td>previous-addresses</td></tr>
+		<tr><td>PUT</td><td>previous-addresses</td></tr>
 		<tr><th colspan="2">service.api.profile</th></tr>
 		<tr><td>GET</td><td>profile</td></tr>
 		<tr><td>PUT</td><td>profile/address</td></tr>
@@ -154,6 +167,7 @@
 		<tr><td>POST</td><td>signup/legal-documents/accept</td></tr>
 		<tr><td>GET</td><td>signup/legal-documents/documents</td></tr>
 		<tr><td>POST</td><td>signup/marketing/subscribe</td></tr>
+		<tr><td>GET</td><td>signup/negative-prepaid-balance-status</td></tr>
 		<tr><td>POST</td><td>signup/personal-account/card-order/create</td></tr>
 		<tr><td>GET</td><td>signup/personal-account/card-order/options</td></tr>
 		<tr><td>POST</td><td>signup/personal-account/card-order/reorder</td></tr>
@@ -172,8 +186,10 @@
 		<tr><td>POST</td><td>signup/secure-token/skip</td></tr>
 		<tr><th colspan="2">service.api.spending-breakdown</th></tr>
 		<tr><td>GET</td><td>spending-breakdown/periods</td></tr>
+		<tr><td>PUT</td><td>spending-breakdown/periods/set-start-transaction</td></tr>
 		<tr><td>GET</td><td>spending-breakdown/periods/{period_id}</td></tr>
 		<tr><td>GET</td><td>spending-breakdown/periods/{period_id}/transactions</td></tr>
+		<tr><td>GET</td><td>spending-breakdown/transactions-to-start-period</td></tr>
 		<tr><th colspan="2">service.api.statement</th></tr>
 		<tr><td>GET</td><td>statement/options/{id}</td></tr>
 		<tr><td>GET</td><td>statement/{id}</td></tr>
