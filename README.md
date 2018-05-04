@@ -9,6 +9,9 @@
 		<tr><th colspan="2">service.api.account-settings</th></tr>
 		<tr><td>GET</td><td>account-settings</td></tr>
 		<tr><td>PUT</td><td>account-settings</td></tr>
+		<tr><th colspan="2">service.api.account-tour</th></tr>
+		<tr><td>GET</td><td>account-tour</td></tr>
+		<tr><td>PUT</td><td>account-tour/skip</td></tr>
 		<tr><th colspan="2">service.api.accounts</th></tr>
 		<tr><td>GET</td><td>accounts</td></tr>
 		<tr><th colspan="2">service.api.analytics</th></tr>
@@ -75,6 +78,7 @@
 		<tr><td>GET</td><td>help/content/categories/{id}</td></tr>
 		<tr><td>GET</td><td>help/content/search</td></tr>
 		<tr><td>GET</td><td>help/content/trending</td></tr>
+		<tr><td>GET</td><td>help/home</td></tr>
 		<tr><td>GET</td><td>help/transactions/{transactionId}</td></tr>
 		<tr><th colspan="2">service.api.identity-challenge</th></tr>
 		<tr><td>POST</td><td>identity-challenge/register-identity-document</td></tr>
@@ -101,6 +105,9 @@
 		<tr><th colspan="2">service.api.merchant</th></tr>
 		<tr><td>GET</td><td>merchant/search</td></tr>
 		<tr><td>POST</td><td>merchant/{merchant_id}/propose-edit</td></tr>
+		<tr><th colspan="2">service.api.nearby</th></tr>
+		<tr><td>POST</td><td>nearby/create-token</td></tr>
+		<tr><td>GET</td><td>nearby/resolve-token</td></tr>
 		<tr><th colspan="2">service.api.news</th></tr>
 		<tr><td>GET</td><td>news</td></tr>
 		<tr><th colspan="2">service.api.oauth2</th></tr>
@@ -126,7 +133,9 @@
 		<tr><td>POST</td><td>p2p/recipients</td></tr>
 		<tr><td>POST</td><td>p2p/transfer</td></tr>
 		<tr><th colspan="2">service.api.payee</th></tr>
+		<tr><td>GET</td><td>payee/list</td></tr>
 		<tr><td>GET</td><td>payee/validate</td></tr>
+		<tr><td>DELETE</td><td>payee/{id}</td></tr>
 		<tr><th colspan="2">service.api.payment-limit</th></tr>
 		<tr><td>GET</td><td>payment-limit/limits</td></tr>
 		<tr><th colspan="2">service.api.payments</th></tr>
@@ -174,6 +183,8 @@
 		<tr><td>GET</td><td>signup/legal-documents/documents</td></tr>
 		<tr><td>POST</td><td>signup/marketing/subscribe</td></tr>
 		<tr><td>GET</td><td>signup/negative-prepaid-balance-status</td></tr>
+		<tr><td>POST</td><td>signup/overdraft-maybe/skip</td></tr>
+		<tr><td>POST</td><td>signup/overdraft-opt-in/skip</td></tr>
 		<tr><td>POST</td><td>signup/personal-account/card-order/create</td></tr>
 		<tr><td>GET</td><td>signup/personal-account/card-order/options</td></tr>
 		<tr><td>POST</td><td>signup/personal-account/card-order/reorder</td></tr>
@@ -192,9 +203,13 @@
 		<tr><td>POST</td><td>signup/secure-token/skip</td></tr>
 		<tr><th colspan="2">service.api.spending-breakdown</th></tr>
 		<tr><td>GET</td><td>spending-breakdown/periods</td></tr>
+		<tr><td>GET</td><td>spending-breakdown/periods/current</td></tr>
 		<tr><td>PUT</td><td>spending-breakdown/periods/set-start-transaction</td></tr>
 		<tr><td>GET</td><td>spending-breakdown/periods/{period_id}</td></tr>
 		<tr><td>GET</td><td>spending-breakdown/periods/{period_id}/transactions</td></tr>
+		<tr><td>GET</td><td>spending-breakdown/report</td></tr>
+		<tr><td>GET</td><td>spending-breakdown/targets</td></tr>
+		<tr><td>PUT</td><td>spending-breakdown/targets</td></tr>
 		<tr><td>GET</td><td>spending-breakdown/transactions-to-start-period</td></tr>
 		<tr><th colspan="2">service.api.statement</th></tr>
 		<tr><td>GET</td><td>statement/options/{id}</td></tr>
