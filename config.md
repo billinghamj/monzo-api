@@ -60,10 +60,12 @@
 - `pots_enabled`
 - `show_upgrade_prompt_p2p`
 - `snowfall`
+- `spread_the_cost_enabled`
 - `summary_spending_targets_enabled`
 - `targets_enabled`
 - `tax_residency_update_flow`
 - `transaction_details_v2_enabled`
 - `transaction_help_enabled`
 - `transaction_tagging_enabled`
+- `trip_reports_enabled`
 - `tx_atm_abroad_stats`
