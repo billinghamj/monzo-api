@@ -13,10 +13,12 @@
 - `onboarding_feed_items`
 - `onboarding_tips_and_tricks`
 - `payments_tab_layout_polish`
+- `self_service_auth_reversals_may_2018`
 - `transaction_help`
 - `transaction_help_april_2018`
 - `user_targeted_trending`
 - `waiting_list_initial_topup_amount`
+- `waiting_list_referral`
 
 ## Feature flags
 
@@ -58,6 +60,7 @@
 - `pin_recovery_enabled`
 - `pin_recovery_enabled_android`
 - `pots_enabled`
+- `self_service_auth_reversals`
 - `show_upgrade_prompt_p2p`
 - `snowfall`
 - `spread_the_cost_enabled`
