@@ -25,7 +25,11 @@
 - `add_money_bank_transfer_default`
 - `android_help_search_enabled`
 - `android_pulse_enabled`
+- `android_spread_the_cost_enabled`
 - `android_transaction_help_enabled`
+- `apple_pay_banner_enabled`
+- `apple_pay_spashscreen_enabled`
+- `apple_pay_wallet_enabled`
 - `bank_statements_enabled`
 - `breakdown_custom_date_range_enabled`
 - `breakdown_enabled`
@@ -46,6 +50,7 @@
 - `identity_verification_help_enabled`
 - `inbound_p2p_enabled`
 - `international_payments_enabled`
+- `joint_accounts_enabled`
 - `labs_enabled`
 - `local_notifications_enabled`
 - `marketplace_beta_enabled`
@@ -55,6 +60,7 @@
 - `nearby_enabled`
 - `overdraft_button_enabled`
 - `overdraft_ineligibility_flow`
+- `payees_enabled`
 - `payment_reactions_enabled`
 - `payments_v2_enabled`
 - `pin_recovery_enabled`
