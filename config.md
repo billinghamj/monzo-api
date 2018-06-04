@@ -2,6 +2,7 @@
 
 - `add_money_bank_transfer_default`
 - `add_money_bank_transfer_default_v2`
+- `add_money_tabs`
 - `ca_signup_initial_topup`
 - `ca_signup_initial_topup_skippable`
 - `current_account_topups`
@@ -14,6 +15,8 @@
 - `onboarding_tips_and_tricks`
 - `payments_tab_layout_polish`
 - `self_service_auth_reversals_may_2018`
+- `similar_help_articles`
+- `summary_for_new_users`
 - `transaction_help`
 - `transaction_help_april_2018`
 - `user_targeted_trending`
@@ -22,6 +25,7 @@
 
 ## Feature flags
 
+- `account_tour_enabled`
 - `add_money_bank_transfer_default`
 - `android_help_search_enabled`
 - `android_pulse_enabled`
@@ -48,8 +52,10 @@
 - `help_search_enabled`
 - `help_v2_enabled`
 - `identity_verification_help_enabled`
+- `ifttt`
 - `inbound_p2p_enabled`
 - `international_payments_enabled`
+- `international_payments_v2_enabled`
 - `joint_accounts_enabled`
 - `labs_enabled`
 - `local_notifications_enabled`
@@ -70,6 +76,7 @@
 - `show_upgrade_prompt_p2p`
 - `snowfall`
 - `spread_the_cost_enabled`
+- `subscriptions_enabled`
 - `summary_spending_targets_enabled`
 - `targets_enabled`
 - `tax_residency_update_flow`
