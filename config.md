@@ -50,6 +50,7 @@
 - `current_account_golden_tickets`
 - `current_account_p2p`
 - `current_account_topups`
+- `customize_icon_enabled`
 - `dd_merchant_feedback_enabled`
 - `fps_processor_v1_enabled`
 - `gambling_block_option_enabled`
