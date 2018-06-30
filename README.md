@@ -39,6 +39,7 @@
 		<tr><td>POST</td><td>card-security-code-challenge/skip</td></tr>
 		<tr><td>POST</td><td>card-security-code-challenge/submit</td></tr>
 		<tr><th colspan="2">service.api.card</th></tr>
+		<tr><td>POST</td><td>card/activate</td></tr>
 		<tr><td>GET</td><td>card/list</td></tr>
 		<tr><td>PUT</td><td>card/toggle</td></tr>
 		<tr><th colspan="2">service.api.cass</th></tr>
@@ -56,6 +57,7 @@
 		<tr><td>GET</td><td>config</td></tr>
 		<tr><th colspan="2">service.api.contact-discovery</th></tr>
 		<tr><td>GET</td><td>contact-discovery/query</td></tr>
+		<tr><td>GET</td><td>contact-discovery/user/{id}</td></tr>
 		<tr><td>GET</td><td>contact-discovery/users</td></tr>
 		<tr><th colspan="2">service.api.faster-payments</th></tr>
 		<tr><td>POST</td><td>faster-payments/create</td></tr>
@@ -76,9 +78,12 @@
 		<tr><th colspan="2">service.api.help</th></tr>
 		<tr><td>GET</td><td>help/content/categories</td></tr>
 		<tr><td>GET</td><td>help/content/categories/{id}</td></tr>
+		<tr><td>GET</td><td>help/content/related-articles/{id}</td></tr>
 		<tr><td>GET</td><td>help/content/search</td></tr>
 		<tr><td>GET</td><td>help/content/trending</td></tr>
 		<tr><td>GET</td><td>help/home</td></tr>
+		<tr><td>POST</td><td>help/transaction-dispute/action</td></tr>
+		<tr><td>GET</td><td>help/transaction-dispute/{transactionId}</td></tr>
 		<tr><td>GET</td><td>help/transactions/{transactionId}</td></tr>
 		<tr><th colspan="2">service.api.identity-challenge</th></tr>
 		<tr><td>POST</td><td>identity-challenge/register-identity-document</td></tr>
@@ -98,6 +103,8 @@
 		<tr><td>PUT</td><td>income-declaration</td></tr>
 		<tr><th colspan="2">service.api.intercom</th></tr>
 		<tr><td>GET</td><td>intercom/tokens/{intercom_app_id}</td></tr>
+		<tr><th colspan="2">service.api.internal-transfer</th></tr>
+		<tr><td>PUT</td><td>internal-transfer/create</td></tr>
 		<tr><th colspan="2">service.api.labs</th></tr>
 		<tr><td>PUT</td><td>labs/disable</td></tr>
 		<tr><td>PUT</td><td>labs/enable</td></tr>
@@ -123,6 +130,7 @@
 		<tr><td>POST</td><td>oauth2/logout</td></tr>
 		<tr><td>POST</td><td>oauth2/token</td></tr>
 		<tr><th colspan="2">service.api.overdraft</th></tr>
+		<tr><td>PUT</td><td>overdraft/bounce-payments</td></tr>
 		<tr><td>GET</td><td>overdraft/credit-agreements</td></tr>
 		<tr><td>POST</td><td>overdraft/credit-agreements</td></tr>
 		<tr><td>GET</td><td>overdraft/eligibility</td></tr>
@@ -171,14 +179,24 @@
 		<tr><td>PUT</td><td>profile/address</td></tr>
 		<tr><td>GET</td><td>profile/address/search</td></tr>
 		<tr><td>POST</td><td>profile/update_address</td></tr>
+		<tr><th colspan="2">service.api.salary</th></tr>
+		<tr><td>GET</td><td>salary/generate-salary-email</td></tr>
 		<tr><th colspan="2">service.api.scheduled-payments</th></tr>
 		<tr><td>GET</td><td>scheduled-payments/series</td></tr>
 		<tr><td>POST</td><td>scheduled-payments/series/fps</td></tr>
+		<tr><td>POST</td><td>scheduled-payments/series/pot-deposit</td></tr>
 		<tr><td>DELETE</td><td>scheduled-payments/series/{series_id}</td></tr>
 		<tr><th colspan="2">service.api.secure-token</th></tr>
 		<tr><td>POST</td><td>secure-token/enrol/pin</td></tr>
+		<tr><th colspan="2">service.api.self-disclosure</th></tr>
+		<tr><td>PUT</td><td>self-disclosure/disclosure</td></tr>
 		<tr><th colspan="2">service.api.signup</th></tr>
 		<tr><td>POST</td><td>signup/initial-topup/skip</td></tr>
+		<tr><td>POST</td><td>signup/joint-account/cancel</td></tr>
+		<tr><td>POST</td><td>signup/joint-account/card-order/create</td></tr>
+		<tr><td>GET</td><td>signup/joint-account/card-order/options</td></tr>
+		<tr><td>POST</td><td>signup/joint-account/start</td></tr>
+		<tr><td>GET</td><td>signup/joint-account/status</td></tr>
 		<tr><td>POST</td><td>signup/legal-documents/accept</td></tr>
 		<tr><td>GET</td><td>signup/legal-documents/documents</td></tr>
 		<tr><td>POST</td><td>signup/marketing/subscribe</td></tr>
@@ -211,9 +229,16 @@
 		<tr><td>GET</td><td>spending-breakdown/targets</td></tr>
 		<tr><td>PUT</td><td>spending-breakdown/targets</td></tr>
 		<tr><td>GET</td><td>spending-breakdown/transactions-to-start-period</td></tr>
+		<tr><th colspan="2">service.api.spread-the-cost</th></tr>
+		<tr><td>POST</td><td>spread-the-cost/applications</td></tr>
+		<tr><td>POST</td><td>spread-the-cost/applications/submit</td></tr>
+		<tr><td>GET</td><td>spread-the-cost/loans</td></tr>
+		<tr><td>GET</td><td>spread-the-cost/loans/{loan_id}</td></tr>
+		<tr><td>GET</td><td>spread-the-cost/loans/{loan_id}/credit-agreement</td></tr>
+		<tr><td>GET</td><td>spread-the-cost/schedules</td></tr>
 		<tr><th colspan="2">service.api.statement</th></tr>
 		<tr><td>GET</td><td>statement/options/{id}</td></tr>
-		<tr><td>GET</td><td>statement/{id}</td></tr>
+		<tr><td>GET</td><td>statement/{account_id}</td></tr>
 		<tr><th colspan="2">service.api.stripe</th></tr>
 		<tr><td>GET</td><td>stripe/cards</td></tr>
 		<tr><td>POST</td><td>stripe/cards</td></tr>
@@ -221,6 +246,13 @@
 		<tr><td>POST</td><td>stripe/inbound_p2p/create</td></tr>
 		<tr><td>POST</td><td>stripe/three_d_secure</td></tr>
 		<tr><td>POST</td><td>stripe/top_up</td></tr>
+		<tr><th colspan="2">service.api.subscriptions</th></tr>
+		<tr><td>GET</td><td>subscriptions</td></tr>
+		<tr><td>PUT</td><td>subscriptions/create</td></tr>
+		<tr><td>PUT</td><td>subscriptions/edit</td></tr>
+		<tr><td>GET</td><td>subscriptions/{subscription_id}</td></tr>
+		<tr><td>PUT</td><td>subscriptions/{subscription_id}/resume</td></tr>
+		<tr><td>PUT</td><td>subscriptions/{subscription_id}/stop</td></tr>
 		<tr><th colspan="2">service.api.targets</th></tr>
 		<tr><td>GET</td><td>targets</td></tr>
 		<tr><th colspan="2">service.api.tax-residency</th></tr>
@@ -232,20 +264,40 @@
 		<tr><th colspan="2">service.api.topup</th></tr>
 		<tr><td>GET</td><td>topup/limits</td></tr>
 		<tr><td>GET</td><td>topup/status</td></tr>
+		<tr><th colspan="2">service.api.transaction-export</th></tr>
+		<tr><td>GET</td><td>transaction-export/csv</td></tr>
+		<tr><td>GET</td><td>transaction-export/qif</td></tr>
 		<tr><th colspan="2">service.api.transactions</th></tr>
 		<tr><td>GET</td><td>transactions</td></tr>
 		<tr><td>POST</td><td>transactions/update-metadata</td></tr>
 		<tr><td>PATCH</td><td>transactions/{transaction_id}</td></tr>
+		<tr><th colspan="2">service.api.transferwise</th></tr>
+		<tr><td>POST</td><td>transferwise/account</td></tr>
+		<tr><td>GET</td><td>transferwise/account-requirements</td></tr>
+		<tr><td>POST</td><td>transferwise/auth</td></tr>
+		<tr><td>POST</td><td>transferwise/auth-callback</td></tr>
+		<tr><td>GET</td><td>transferwise/quote</td></tr>
+		<tr><td>POST</td><td>transferwise/quote</td></tr>
+		<tr><td>GET</td><td>transferwise/supported-currencies</td></tr>
+		<tr><td>POST</td><td>transferwise/transfer</td></tr>
+		<tr><td>GET</td><td>transferwise/transfer-requirements</td></tr>
+		<tr><td>GET</td><td>transferwise/user</td></tr>
+		<tr><th colspan="2">service.api.trip</th></tr>
+		<tr><td>GET</td><td>trip/{trip_id}</td></tr>
 		<tr><th colspan="2">service.api.user-images</th></tr>
 		<tr><td>DELETE</td><td>user-images/image</td></tr>
 		<tr><td>GET</td><td>user-images/profile_picture/{user_id}</td></tr>
 		<tr><td>PUT</td><td>user-images/register</td></tr>
 		<tr><td>POST</td><td>user-images/upload</td></tr>
 		<tr><th colspan="2">service.api.user-settings</th></tr>
+		<tr><td>GET</td><td>user-settings</td></tr>
 		<tr><td>PUT</td><td>user-settings</td></tr>
 		<tr><th colspan="2">service.api.waitlist</th></tr>
 		<tr><td>GET</td><td>waitlist</td></tr>
 		<tr><td>POST</td><td>waitlist/signup</td></tr>
+		<tr><th colspan="2">service.api.user-settings</th></tr>
+		<tr><td>PUT</td><td>user-settings/gambling-block/disable</td></tr>
+		<tr><td>PUT</td><td>user-settings/gambling-block/enable</td></tr>
 		<tr><th colspan="2">service.api.web-auth</th></tr>
 		<tr><td>POST</td><td>web-auth/authorize</td></tr>
 		<tr><th colspan="2">service.api.webhooks</th></tr>
