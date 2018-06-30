@@ -16,6 +16,9 @@
 		<tr><td>GET</td><td>accounts</td></tr>
 		<tr><th colspan="2">service.api.analytics</th></tr>
 		<tr><td>POST</td><td>analytics/track</td></tr>
+		<tr><th colspan="2">service.api.apns</th></tr>
+		<tr><td>POST</td><td>apns/clear_tokens</td></tr>
+		<tr><td>POST</td><td>apns/register</td></tr>
 		<tr><th colspan="2">service.api.attachment</th></tr>
 		<tr><td>POST</td><td>attachment/deregister</td></tr>
 		<tr><td>POST</td><td>attachment/register</td></tr>
@@ -29,6 +32,8 @@
 		<tr><td>GET</td><td>balance/limits</td></tr>
 		<tr><th colspan="2">service.api.branches</th></tr>
 		<tr><td>GET</td><td>branches</td></tr>
+		<tr><th colspan="2">service.api.card-dispatch</th></tr>
+		<tr><td>GET</td><td>card-dispatch/status</td></tr>
 		<tr><th colspan="2">service.api.card-replacement</th></tr>
 		<tr><td>POST</td><td>card-replacement/activate</td></tr>
 		<tr><td>POST</td><td>card-replacement/order</td></tr>
@@ -107,6 +112,8 @@
 		<tr><td>PUT</td><td>labs/disable</td></tr>
 		<tr><td>PUT</td><td>labs/enable</td></tr>
 		<tr><td>GET</td><td>labs/features</td></tr>
+		<tr><th colspan="2">service.api.legal-documents</th></tr>
+		<tr><td>GET</td><td>legal-documents/accepted</td></tr>
 		<tr><th colspan="2">service.api.merchant</th></tr>
 		<tr><td>GET</td><td>merchant/search</td></tr>
 		<tr><td>POST</td><td>merchant/{merchant_id}/propose-edit</td></tr>
@@ -253,6 +260,7 @@
 		<tr><td>PUT</td><td>subscriptions/{subscription_id}/stop</td></tr>
 		<tr><th colspan="2">service.api.targets</th></tr>
 		<tr><td>GET</td><td>targets</td></tr>
+		<tr><td>PUT</td><td>targets</td></tr>
 		<tr><th colspan="2">service.api.tax-residency</th></tr>
 		<tr><td>POST</td><td>tax-residency/no-tin</td></tr>
 		<tr><td>GET</td><td>tax-residency/status</td></tr>
