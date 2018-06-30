@@ -29,8 +29,6 @@
 		<tr><td>GET</td><td>balance/limits</td></tr>
 		<tr><th colspan="2">service.api.branches</th></tr>
 		<tr><td>GET</td><td>branches</td></tr>
-		<tr><th colspan="2">service.api.card-activation</th></tr>
-		<tr><td>POST</td><td>card-activation/activate</td></tr>
 		<tr><th colspan="2">service.api.card-replacement</th></tr>
 		<tr><td>POST</td><td>card-replacement/activate</td></tr>
 		<tr><td>POST</td><td>card-replacement/order</td></tr>
