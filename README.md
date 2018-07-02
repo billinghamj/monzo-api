@@ -62,6 +62,10 @@
 		<tr><td>GET</td><td>contact-discovery/query</td></tr>
 		<tr><td>GET</td><td>contact-discovery/user/{id}</td></tr>
 		<tr><td>GET</td><td>contact-discovery/users</td></tr>
+		<tr><th colspan="2">service.api.extended-authentication</th></tr>
+		<tr><td>POST</td><td>extended-authentication/sms-otp/send</td></tr>
+		<tr><td>POST</td><td>extended-authentication/sms-otp/verify</td></tr>
+		<tr><td>GET</td><td>extended-authentication/status</td></tr>
 		<tr><th colspan="2">service.api.faster-payments</th></tr>
 		<tr><td>POST</td><td>faster-payments/create</td></tr>
 		<tr><th colspan="2">service.api.fcm</th></tr>
@@ -114,6 +118,9 @@
 		<tr><td>GET</td><td>labs/features</td></tr>
 		<tr><th colspan="2">service.api.legal-documents</th></tr>
 		<tr><td>GET</td><td>legal-documents/accepted</td></tr>
+		<tr><th colspan="2">service.api.mastercard-mdes</th></tr>
+		<tr><td>POST</td><td>mastercard-mdes/apple-pay/digitization-data</td></tr>
+		<tr><td>POST</td><td>mastercard-mdes/challenge</td></tr>
 		<tr><th colspan="2">service.api.merchant</th></tr>
 		<tr><td>GET</td><td>merchant/search</td></tr>
 		<tr><td>POST</td><td>merchant/{merchant_id}/propose-edit</td></tr>
@@ -147,12 +154,16 @@
 		<tr><td>POST</td><td>p2p/transfer</td></tr>
 		<tr><th colspan="2">service.api.payee</th></tr>
 		<tr><td>GET</td><td>payee/list</td></tr>
+		<tr><td>GET</td><td>payee/sort-code</td></tr>
 		<tr><td>GET</td><td>payee/validate</td></tr>
 		<tr><td>DELETE</td><td>payee/{id}</td></tr>
 		<tr><th colspan="2">service.api.payment-limit</th></tr>
 		<tr><td>GET</td><td>payment-limit/limits</td></tr>
 		<tr><th colspan="2">service.api.payments</th></tr>
 		<tr><td>PUT</td><td>payments/update</td></tr>
+		<tr><th colspan="2">service.api.phone</th></tr>
+		<tr><td>POST</td><td>phone/check-code</td></tr>
+		<tr><td>POST</td><td>phone/send-code</td></tr>
 		<tr><th colspan="2">service.api.pin-recovery</th></tr>
 		<tr><td>PUT</td><td>pin-recovery/cancel</td></tr>
 		<tr><td>POST</td><td>pin-recovery/retrieve</td></tr>
@@ -192,6 +203,8 @@
 		<tr><td>POST</td><td>scheduled-payments/series/pot-deposit</td></tr>
 		<tr><td>DELETE</td><td>scheduled-payments/series/{series_id}</td></tr>
 		<tr><th colspan="2">service.api.secure-token</th></tr>
+		<tr><td>POST</td><td>secure-token/enrol/inactive</td></tr>
+		<tr><td>POST</td><td>secure-token/enrol/p2p_token_upgrade</td></tr>
 		<tr><td>POST</td><td>secure-token/enrol/pin</td></tr>
 		<tr><th colspan="2">service.api.self-disclosure</th></tr>
 		<tr><td>PUT</td><td>self-disclosure/disclosure</td></tr>
@@ -223,6 +236,7 @@
 		<tr><td>POST</td><td>signup/profile/commit</td></tr>
 		<tr><td>POST</td><td>signup/profile/phone/send</td></tr>
 		<tr><td>POST</td><td>signup/profile/phone/verify</td></tr>
+		<tr><td>POST</td><td>signup/secure-token/enrol</td></tr>
 		<tr><td>POST</td><td>signup/secure-token/skip</td></tr>
 		<tr><th colspan="2">service.api.spending-breakdown</th></tr>
 		<tr><td>GET</td><td>spending-breakdown/periods</td></tr>
@@ -289,6 +303,7 @@
 		<tr><td>GET</td><td>transferwise/transfer-requirements</td></tr>
 		<tr><td>GET</td><td>transferwise/user</td></tr>
 		<tr><th colspan="2">service.api.trip</th></tr>
+		<tr><td>POST</td><td>trip/purpose</td></tr>
 		<tr><td>GET</td><td>trip/{trip_id}</td></tr>
 		<tr><th colspan="2">service.api.user-images</th></tr>
 		<tr><td>DELETE</td><td>user-images/image</td></tr>
