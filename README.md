@@ -298,12 +298,11 @@
 		<tr><th colspan="2">service.api.user-settings</th></tr>
 		<tr><td>GET</td><td>user-settings</td></tr>
 		<tr><td>PUT</td><td>user-settings</td></tr>
+		<tr><td>PUT</td><td>user-settings/gambling-block/disable</td></tr>
+		<tr><td>PUT</td><td>user-settings/gambling-block/enable</td></tr>
 		<tr><th colspan="2">service.api.waitlist</th></tr>
 		<tr><td>GET</td><td>waitlist</td></tr>
 		<tr><td>POST</td><td>waitlist/signup</td></tr>
-		<tr><th colspan="2">service.api.user-settings</th></tr>
-		<tr><td>PUT</td><td>user-settings/gambling-block/disable</td></tr>
-		<tr><td>PUT</td><td>user-settings/gambling-block/enable</td></tr>
 		<tr><th colspan="2">service.api.web-auth</th></tr>
 		<tr><td>POST</td><td>web-auth/authorize</td></tr>
 		<tr><th colspan="2">service.api.webhooks</th></tr>
