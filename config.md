@@ -39,6 +39,7 @@
 - `apple_pay_wallet_enabled`
 - `background_update_notes_enabled`
 - `bank_statements_enabled`
+- `bill_split_enabled`
 - `breakdown_custom_date_range_enabled`
 - `breakdown_enabled`
 - `ca_only_monzo_me`
@@ -54,6 +55,7 @@
 - `dd_merchant_feedback_enabled`
 - `fps_processor_v1_enabled`
 - `gambling_block_option_enabled`
+- `group_coin_jar_transactions_enabled`
 - `help_search_enabled`
 - `help_v2_enabled`
 - `identity_verification_help_enabled`
@@ -79,8 +81,11 @@
 - `pin_recovery_enabled`
 - `pin_recovery_enabled_android`
 - `pot_goals_enabled`
+- `pot_roundup_toggle_enabled`
 - `pots_enabled`
+- `scheduled_payment_editing_enabled`
 - `scheduled_pot_deposits`
+- `scheduled_pot_deposits_ios_enabled`
 - `self_service_auth_reversals`
 - `show_upgrade_prompt_p2p`
 - `snowfall`
