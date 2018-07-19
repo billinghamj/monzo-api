@@ -56,12 +56,17 @@
 		<tr><td>GET</td><td>cass/validate_account</td></tr>
 		<tr><th colspan="2">service.api.chat-user-selection</th></tr>
 		<tr><td>GET</td><td>chat-user-selection/query-urgency</td></tr>
+		<tr><th colspan="2">service.api.chat</th></tr>
+		<tr><td>GET</td><td>chat/messages</td></tr>
+		<tr><td>PUT</td><td>chat/messages</td></tr>
 		<tr><th colspan="2">service.api.config</th></tr>
 		<tr><td>GET</td><td>config</td></tr>
 		<tr><th colspan="2">service.api.contact-discovery</th></tr>
 		<tr><td>GET</td><td>contact-discovery/query</td></tr>
 		<tr><td>GET</td><td>contact-discovery/user/{id}</td></tr>
 		<tr><td>GET</td><td>contact-discovery/users</td></tr>
+		<tr><th colspan="2">service.api.customer-support-authentication</th></tr>
+		<tr><td>PUT</td><td>customer-support-authentication/authenticate</td></tr>
 		<tr><th colspan="2">service.api.extended-authentication</th></tr>
 		<tr><td>POST</td><td>extended-authentication/sms-otp/send</td></tr>
 		<tr><td>POST</td><td>extended-authentication/sms-otp/verify</td></tr>
@@ -77,9 +82,12 @@
 		<tr><td>DELETE</td><td>feed/{id}</td></tr>
 		<tr><th colspan="2">service.api.feedback</th></tr>
 		<tr><td>POST</td><td>feedback/create</td></tr>
+		<tr><th colspan="2">service.api.frontend-view</th></tr>
+		<tr><td>GET</td><td>frontend-view/read/{id}</td></tr>
 		<tr><th colspan="2">service.api.geocode</th></tr>
 		<tr><td>GET</td><td>geocode/postal-code-lookup</td></tr>
 		<tr><th colspan="2">service.api.golden-ticket</th></tr>
+		<tr><td>GET</td><td>golden-ticket/list</td></tr>
 		<tr><td>GET</td><td>golden-ticket/{id}</td></tr>
 		<tr><td>PUT</td><td>golden-ticket/{id}/claim</td></tr>
 		<tr><th colspan="2">service.api.help</th></tr>
@@ -178,6 +186,8 @@
 		<tr><th colspan="2">service.api.pots</th></tr>
 		<tr><td>GET</td><td>pots</td></tr>
 		<tr><td>PUT</td><td>pots</td></tr>
+		<tr><td>PUT</td><td>pots/legal-documents/accept</td></tr>
+		<tr><td>GET</td><td>pots/legal-documents/documents</td></tr>
 		<tr><td>DELETE</td><td>pots/{id}</td></tr>
 		<tr><td>GET</td><td>pots/{id}</td></tr>
 		<tr><td>PATCH</td><td>pots/{id}</td></tr>
@@ -195,11 +205,14 @@
 		<tr><td>PUT</td><td>profile/address</td></tr>
 		<tr><td>GET</td><td>profile/address/search</td></tr>
 		<tr><td>POST</td><td>profile/update_address</td></tr>
+		<tr><th colspan="2">service.api.pusher</th></tr>
+		<tr><td>POST</td><td>pusher/auth</td></tr>
 		<tr><th colspan="2">service.api.salary</th></tr>
 		<tr><td>GET</td><td>salary/generate-salary-email</td></tr>
 		<tr><th colspan="2">service.api.scheduled-payments</th></tr>
 		<tr><td>GET</td><td>scheduled-payments/series</td></tr>
 		<tr><td>POST</td><td>scheduled-payments/series/fps</td></tr>
+		<tr><td>PUT</td><td>scheduled-payments/series/fps/{series_id}</td></tr>
 		<tr><td>POST</td><td>scheduled-payments/series/pot-deposit</td></tr>
 		<tr><td>DELETE</td><td>scheduled-payments/series/{series_id}</td></tr>
 		<tr><th colspan="2">service.api.secure-token</th></tr>
