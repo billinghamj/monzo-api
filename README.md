@@ -6,6 +6,9 @@
 		</tr>
 	</thead>
 	<tbody>
+		<tr><th colspan="2">service.api.3dsecure-challenge</th></tr>
+		<tr><td>PUT</td><td>3dsecure-challenge/challenge/attempt</td></tr>
+		<tr><td>PUT</td><td>3dsecure-challenge/challenge/cancel</td></tr>
 		<tr><th colspan="2">service.api.account-settings</th></tr>
 		<tr><td>GET</td><td>account-settings</td></tr>
 		<tr><td>PUT</td><td>account-settings</td></tr>
@@ -26,6 +29,7 @@
 		<tr><th colspan="2">service.api.bacs-direct-debits</th></tr>
 		<tr><td>GET</td><td>bacs-direct-debits/instructions</td></tr>
 		<tr><td>PUT</td><td>bacs-direct-debits/instructions/{direct_debit_id}/cancel</td></tr>
+		<tr><td>PUT</td><td>bacs-direct-debits/payment/{bacs_payment_id}/attempt</td></tr>
 		<tr><th colspan="2">service.api.balance</th></tr>
 		<tr><td>GET</td><td>balance</td></tr>
 		<tr><td>GET</td><td>balance/graph</td></tr>
@@ -167,6 +171,9 @@
 		<tr><td>DELETE</td><td>payee/{id}</td></tr>
 		<tr><th colspan="2">service.api.payment-limit</th></tr>
 		<tr><td>GET</td><td>payment-limit/limits</td></tr>
+		<tr><th colspan="2">service.api.payment-request</th></tr>
+		<tr><td>PUT</td><td>payment-request/{id}/decline</td></tr>
+		<tr><td>PUT</td><td>payment-request/{id}/pay</td></tr>
 		<tr><th colspan="2">service.api.payments</th></tr>
 		<tr><td>PUT</td><td>payments/update</td></tr>
 		<tr><th colspan="2">service.api.phone</th></tr>
@@ -186,6 +193,7 @@
 		<tr><th colspan="2">service.api.pots</th></tr>
 		<tr><td>GET</td><td>pots</td></tr>
 		<tr><td>PUT</td><td>pots</td></tr>
+		<tr><td>GET</td><td>pots/constraints</td></tr>
 		<tr><td>PUT</td><td>pots/legal-documents/accept</td></tr>
 		<tr><td>GET</td><td>pots/legal-documents/documents</td></tr>
 		<tr><td>DELETE</td><td>pots/{id}</td></tr>
@@ -204,6 +212,7 @@
 		<tr><td>GET</td><td>profile</td></tr>
 		<tr><td>PUT</td><td>profile/address</td></tr>
 		<tr><td>GET</td><td>profile/address/search</td></tr>
+		<tr><td>PUT</td><td>profile/phone/update-number</td></tr>
 		<tr><td>POST</td><td>profile/update_address</td></tr>
 		<tr><th colspan="2">service.api.pusher</th></tr>
 		<tr><td>POST</td><td>pusher/auth</td></tr>
