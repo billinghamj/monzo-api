@@ -49,6 +49,9 @@
 		<tr><td>POST</td><td>card/activate</td></tr>
 		<tr><td>GET</td><td>card/list</td></tr>
 		<tr><td>PUT</td><td>card/toggle</td></tr>
+		<tr><th colspan="2">service.api.cash-referrals</th></tr>
+		<tr><td>GET</td><td>cash-referrals/active</td></tr>
+		<tr><td>PUT</td><td>cash-referrals/{referral}/redeem</td></tr>
 		<tr><th colspan="2">service.api.cass</th></tr>
 		<tr><td>GET</td><td>cass/documents/account-closure-instruction</td></tr>
 		<tr><td>GET</td><td>cass/documents/current-account-switch-agreement</td></tr>
