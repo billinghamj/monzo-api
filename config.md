@@ -14,6 +14,7 @@
 - `help_v2`
 - `marketplace_beta`
 - `multiple_gt_completion_reward`
+- `multiple_gt_mystery`
 - `onboarding_feed_items`
 - `onboarding_tips_and_tricks`
 - `overdraft_limit_slider`
@@ -32,6 +33,8 @@
 
 ## Feature flags
 
+- `3ds_enabled`
+- `3ds_in_app_flow`
 - `account_tour_enabled`
 - `add_money_bank_transfer_default`
 - `android_help_search_enabled`
@@ -49,7 +52,9 @@
 - `ca_only_monzo_me`
 - `ca_signup_initial_topup_enabled`
 - `card_replacement_retail`
+- `cash_referrals_enabled`
 - `cass_inbound_switch_enabled`
+- `change_phone_number_enabled`
 - `chat_v2_enabled`
 - `crowdcube_enabled`
 - `current_account_golden_tickets`
@@ -66,6 +71,7 @@
 - `identity_verification_help_enabled`
 - `ifttt`
 - `inbound_p2p_enabled`
+- `instalment_loans_enabled`
 - `international_payments_enabled`
 - `international_payments_v2_enabled`
 - `joint_accounts_enabled`
@@ -92,6 +98,7 @@
 - `scheduled_payment_editing_enabled`
 - `scheduled_pot_deposits`
 - `scheduled_pot_deposits_ios_enabled`
+- `scheduled_pot_withdrawals_enabled`
 - `self_service_auth_reversals`
 - `show_upgrade_prompt_p2p`
 - `snowfall`
