@@ -69,6 +69,8 @@
 		<tr><td>GET</td><td>contact-discovery/query</td></tr>
 		<tr><td>GET</td><td>contact-discovery/user/{id}</td></tr>
 		<tr><td>GET</td><td>contact-discovery/users</td></tr>
+		<tr><th colspan="2">service.api.crowdfunding-investment</th></tr>
+		<tr><td>GET</td><td>crowdfunding-investment/splash-screen</td></tr>
 		<tr><th colspan="2">service.api.customer-support-authentication</th></tr>
 		<tr><td>PUT</td><td>customer-support-authentication/authenticate</td></tr>
 		<tr><th colspan="2">service.api.extended-authentication</th></tr>
@@ -120,6 +122,13 @@
 		<tr><td>GET</td><td>inbound-p2p/username/{username}</td></tr>
 		<tr><th colspan="2">service.api.income-declaration</th></tr>
 		<tr><td>PUT</td><td>income-declaration</td></tr>
+		<tr><th colspan="2">service.api.instalment-loan</th></tr>
+		<tr><td>POST</td><td>instalment-loan/applications</td></tr>
+		<tr><td>POST</td><td>instalment-loan/applications/submit</td></tr>
+		<tr><td>GET</td><td>instalment-loan/loans</td></tr>
+		<tr><td>GET</td><td>instalment-loan/loans/{loan_id}</td></tr>
+		<tr><td>GET</td><td>instalment-loan/loans/{loan_id}/credit-agreement</td></tr>
+		<tr><td>GET</td><td>instalment-loan/schedules</td></tr>
 		<tr><th colspan="2">service.api.intercom</th></tr>
 		<tr><td>GET</td><td>intercom/tokens/{intercom_app_id}</td></tr>
 		<tr><th colspan="2">service.api.internal-transfer</th></tr>
@@ -193,6 +202,7 @@
 		<tr><th colspan="2">service.api.pots</th></tr>
 		<tr><td>GET</td><td>pots</td></tr>
 		<tr><td>PUT</td><td>pots</td></tr>
+		<tr><td>GET</td><td>pots/committed/deposit-suggestion</td></tr>
 		<tr><td>GET</td><td>pots/constraints</td></tr>
 		<tr><td>PUT</td><td>pots/legal-documents/accept</td></tr>
 		<tr><td>GET</td><td>pots/legal-documents/documents</td></tr>
@@ -223,6 +233,7 @@
 		<tr><td>POST</td><td>scheduled-payments/series/fps</td></tr>
 		<tr><td>PUT</td><td>scheduled-payments/series/fps/{series_id}</td></tr>
 		<tr><td>POST</td><td>scheduled-payments/series/pot-deposit</td></tr>
+		<tr><td>POST</td><td>scheduled-payments/series/pot-withdrawal</td></tr>
 		<tr><td>DELETE</td><td>scheduled-payments/series/{series_id}</td></tr>
 		<tr><th colspan="2">service.api.secure-token</th></tr>
 		<tr><td>POST</td><td>secure-token/enrol/inactive</td></tr>
