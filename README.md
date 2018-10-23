@@ -17,6 +17,8 @@
 		<tr><td>PUT</td><td>account-tour/skip</td></tr>
 		<tr><th colspan="2">service.api.accounts</th></tr>
 		<tr><td>GET</td><td>accounts</td></tr>
+		<tr><th colspan="2">service.api.affordability-check</th></tr>
+		<tr><td>PUT</td><td>affordability-check/opt-in</td></tr>
 		<tr><th colspan="2">service.api.analytics</th></tr>
 		<tr><td>POST</td><td>analytics/track</td></tr>
 		<tr><th colspan="2">service.api.apns</th></tr>
@@ -64,8 +66,11 @@
 		<tr><th colspan="2">service.api.chat-user-selection</th></tr>
 		<tr><td>GET</td><td>chat-user-selection/query-urgency</td></tr>
 		<tr><th colspan="2">service.api.chat</th></tr>
+		<tr><td>PUT</td><td>chat/files/complete</td></tr>
+		<tr><td>POST</td><td>chat/files/upload</td></tr>
 		<tr><td>GET</td><td>chat/messages</td></tr>
 		<tr><td>PUT</td><td>chat/messages</td></tr>
+		<tr><td>PUT</td><td>chat/messages/mark-as-read</td></tr>
 		<tr><th colspan="2">service.api.config</th></tr>
 		<tr><td>GET</td><td>config</td></tr>
 		<tr><th colspan="2">service.api.contact-discovery</th></tr>
@@ -128,6 +133,7 @@
 		<tr><th colspan="2">service.api.instalment-loan</th></tr>
 		<tr><td>POST</td><td>instalment-loan/applications</td></tr>
 		<tr><td>POST</td><td>instalment-loan/applications/submit</td></tr>
+		<tr><td>GET</td><td>instalment-loan/eligibility</td></tr>
 		<tr><td>GET</td><td>instalment-loan/loans</td></tr>
 		<tr><td>GET</td><td>instalment-loan/loans/{loan_id}</td></tr>
 		<tr><td>GET</td><td>instalment-loan/loans/{loan_id}/credit-agreement</td></tr>
@@ -136,6 +142,8 @@
 		<tr><td>GET</td><td>intercom/tokens/{intercom_app_id}</td></tr>
 		<tr><th colspan="2">service.api.internal-transfer</th></tr>
 		<tr><td>PUT</td><td>internal-transfer/create</td></tr>
+		<tr><th colspan="2">service.api.invite</th></tr>
+		<tr><td>PUT</td><td>invite</td></tr>
 		<tr><th colspan="2">service.api.labs</th></tr>
 		<tr><td>PUT</td><td>labs/disable</td></tr>
 		<tr><td>PUT</td><td>labs/enable</td></tr>
@@ -145,6 +153,7 @@
 		<tr><th colspan="2">service.api.mastercard-mdes</th></tr>
 		<tr><td>POST</td><td>mastercard-mdes/apple-pay/digitization-data</td></tr>
 		<tr><td>POST</td><td>mastercard-mdes/challenge</td></tr>
+		<tr><td>POST</td><td>mastercard-mdes/google-pay/signup-digitization-data</td></tr>
 		<tr><th colspan="2">service.api.merchant</th></tr>
 		<tr><td>GET</td><td>merchant/search</td></tr>
 		<tr><td>POST</td><td>merchant/{merchant_id}/propose-edit</td></tr>
@@ -184,6 +193,8 @@
 		<tr><th colspan="2">service.api.payment-limit</th></tr>
 		<tr><td>GET</td><td>payment-limit/limits</td></tr>
 		<tr><th colspan="2">service.api.payment-request</th></tr>
+		<tr><td>PUT</td><td>payment-request/bill-splitting/create</td></tr>
+		<tr><td>GET</td><td>payment-request/bill-splitting/{id}</td></tr>
 		<tr><td>PUT</td><td>payment-request/{id}/decline</td></tr>
 		<tr><td>PUT</td><td>payment-request/{id}/pay</td></tr>
 		<tr><th colspan="2">service.api.payments</th></tr>
@@ -245,7 +256,10 @@
 		<tr><th colspan="2">service.api.self-disclosure</th></tr>
 		<tr><td>PUT</td><td>self-disclosure/disclosure</td></tr>
 		<tr><th colspan="2">service.api.signup</th></tr>
+		<tr><td>PUT</td><td>signup/enable-p2p/enable</td></tr>
+		<tr><td>PUT</td><td>signup/enable-p2p/skip</td></tr>
 		<tr><td>POST</td><td>signup/initial-topup/skip</td></tr>
+		<tr><td>PUT</td><td>signup/invite-friends/skip</td></tr>
 		<tr><td>POST</td><td>signup/joint-account/cancel</td></tr>
 		<tr><td>POST</td><td>signup/joint-account/card-order/create</td></tr>
 		<tr><td>GET</td><td>signup/joint-account/card-order/options</td></tr>
@@ -255,6 +269,8 @@
 		<tr><td>GET</td><td>signup/legal-documents/documents</td></tr>
 		<tr><td>POST</td><td>signup/marketing/subscribe</td></tr>
 		<tr><td>GET</td><td>signup/negative-prepaid-balance-status</td></tr>
+		<tr><td>PUT</td><td>signup/notify-friends</td></tr>
+		<tr><td>PUT</td><td>signup/notify-friends/skip</td></tr>
 		<tr><td>POST</td><td>signup/overdraft-maybe/skip</td></tr>
 		<tr><td>POST</td><td>signup/overdraft-opt-in/skip</td></tr>
 		<tr><td>POST</td><td>signup/personal-account/card-order/create</td></tr>
@@ -272,6 +288,7 @@
 		<tr><td>POST</td><td>signup/profile/commit</td></tr>
 		<tr><td>POST</td><td>signup/profile/phone/send</td></tr>
 		<tr><td>POST</td><td>signup/profile/phone/verify</td></tr>
+		<tr><td>PUT</td><td>signup/provision-mdes/skip</td></tr>
 		<tr><td>POST</td><td>signup/secure-token/enrol</td></tr>
 		<tr><td>POST</td><td>signup/secure-token/skip</td></tr>
 		<tr><th colspan="2">service.api.spending-breakdown</th></tr>
@@ -308,6 +325,13 @@
 		<tr><td>GET</td><td>subscriptions/{subscription_id}</td></tr>
 		<tr><td>PUT</td><td>subscriptions/{subscription_id}/resume</td></tr>
 		<tr><td>PUT</td><td>subscriptions/{subscription_id}/stop</td></tr>
+		<tr><th colspan="2">service.api.tabs</th></tr>
+		<tr><td>GET</td><td>tabs</td></tr>
+		<tr><td>POST</td><td>tabs</td></tr>
+		<tr><td>PUT</td><td>tabs/{tab_id}/close</td></tr>
+		<tr><td>GET</td><td>tabs/{tab_id}/items</td></tr>
+		<tr><td>PUT</td><td>tabs/{tab_id}/items</td></tr>
+		<tr><td>DELETE</td><td>tabs/{tab_id}/items/{item_id}</td></tr>
 		<tr><th colspan="2">service.api.targets</th></tr>
 		<tr><td>GET</td><td>targets</td></tr>
 		<tr><td>PUT</td><td>targets</td></tr>
