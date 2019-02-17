@@ -17,6 +17,8 @@
 		<tr><td>PUT</td><td>account-tour/skip</td></tr>
 		<tr><th colspan="2">service.api.accounts</th></tr>
 		<tr><td>GET</td><td>accounts</td></tr>
+		<tr><th colspan="2">service.api.affordability-check</th></tr>
+		<tr><td>PUT</td><td>affordability-check/opt-in</td></tr>
 		<tr><th colspan="2">service.api.analytics</th></tr>
 		<tr><td>POST</td><td>analytics/track</td></tr>
 		<tr><th colspan="2">service.api.apns</th></tr>
@@ -69,6 +71,8 @@
 		<tr><td>GET</td><td>cass/validate_account</td></tr>
 		<tr><th colspan="2">service.api.chat-customer-survey</th></tr>
 		<tr><td>PUT</td><td>chat-customer-survey/{survey_id}</td></tr>
+		<tr><th colspan="2">service.api.chat-user-selection</th></tr>
+		<tr><td>GET</td><td>chat-user-selection/query-urgency</td></tr>
 		<tr><th colspan="2">service.api.chat</th></tr>
 		<tr><td>PUT</td><td>chat/files/complete</td></tr>
 		<tr><td>POST</td><td>chat/files/upload</td></tr>
@@ -139,6 +143,8 @@
 		<tr><td>POST</td><td>identity-verification/submit</td></tr>
 		<tr><th colspan="2">service.api.inbound-p2p</th></tr>
 		<tr><td>GET</td><td>inbound-p2p/username/{username}</td></tr>
+		<tr><th colspan="2">service.api.income-declaration</th></tr>
+		<tr><td>PUT</td><td>income-declaration</td></tr>
 		<tr><th colspan="2">service.api.instalment-loan</th></tr>
 		<tr><td>POST</td><td>instalment-loan/applications</td></tr>
 		<tr><td>POST</td><td>instalment-loan/applications/submit</td></tr>
@@ -250,7 +256,11 @@
 		<tr><td>PATCH</td><td>pots/{id}</td></tr>
 		<tr><td>PUT</td><td>pots/{id}/deposit</td></tr>
 		<tr><td>GET</td><td>pots/{id}/details</td></tr>
-		<tr><td>PUT</td><td>pots/{id}/withdraw</td></tr>>
+		<tr><td>PUT</td><td>pots/{id}/withdraw</td></tr>
+		<tr><th colspan="2">service.api.prepaid-migration-whitelist</th></tr>
+		<tr><td>GET</td><td>prepaid-migration-whitelist</td></tr>
+		<tr><th colspan="2">service.api.prepaid-refund</th></tr>
+		<tr><td>GET</td><td>prepaid-refund/form</td></tr>
 		<tr><th colspan="2">service.api.previous-addresses</th></tr>
 		<tr><td>GET</td><td>previous-addresses</td></tr>
 		<tr><td>PUT</td><td>previous-addresses</td></tr>
@@ -265,6 +275,8 @@
 		<tr><th colspan="2">service.api.referral</th></tr>
 		<tr><td>GET</td><td>referral/copy</td></tr>
 		<tr><td>GET</td><td>referral/referral-tracker-copy</td></tr>
+		<tr><th colspan="2">service.api.salary</th></tr>
+		<tr><td>GET</td><td>salary/generate-salary-email</td></tr>
 		<tr><th colspan="2">service.api.scheduled-payments</th></tr>
 		<tr><td>GET</td><td>scheduled-payments/series</td></tr>
 		<tr><td>POST</td><td>scheduled-payments/series/fps</td></tr>
@@ -331,6 +343,8 @@
 		<tr><td>PUT</td><td>spending-breakdown/targets</td></tr>
 		<tr><td>GET</td><td>spending-breakdown/transactions-to-start-period</td></tr>
 		<tr><th colspan="2">service.api.spread-the-cost</th></tr>
+		<tr><td>POST</td><td>spread-the-cost/applications</td></tr>
+		<tr><td>POST</td><td>spread-the-cost/applications/submit</td></tr>
 		<tr><td>GET</td><td>spread-the-cost/loans</td></tr>
 		<tr><td>GET</td><td>spread-the-cost/loans/{loan_id}</td></tr>
 		<tr><td>GET</td><td>spread-the-cost/loans/{loan_id}/credit-agreement</td></tr>
@@ -355,8 +369,10 @@
 		<tr><th colspan="2">service.api.tabs</th></tr>
 		<tr><td>GET</td><td>tabs</td></tr>
 		<tr><td>POST</td><td>tabs</td></tr>
+		<tr><td>PUT</td><td>tabs/{tab_id}/close</td></tr>
 		<tr><td>PUT</td><td>tabs/{tab_id}/finish</td></tr>
 		<tr><td>GET</td><td>tabs/{tab_id}/items</td></tr>
+		<tr><td>PUT</td><td>tabs/{tab_id}/items</td></tr>
 		<tr><td>PUT</td><td>tabs/{tab_id}/items/add</td></tr>
 		<tr><td>DELETE</td><td>tabs/{tab_id}/items/{item_id}</td></tr>
 		<tr><td>PUT</td><td>tabs/{tab_id}/leave</td></tr>
